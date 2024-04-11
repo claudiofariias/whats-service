@@ -1,0 +1,41 @@
+body, html {
+    width: 1600px;
+    height: 900px;
+    background: linear-gradient(to bottom, #075E54, #128C7E);
+}
+
+.robotMini{
+    width: 52px;
+    height: 51px;
+}
+
+.loginContainer {
+    width: 444px;
+    height: 468px;
+    margin-left: 88px;
+    border-radius: 10px;
+    opacity: 30%;
+    background-color: black;
+}
+
+.whatsapp {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-top: 190px;
+}
+
+input {
+    width: 347px;
+    height: 61px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.loginContainer {
+    text-align: center;
+}
