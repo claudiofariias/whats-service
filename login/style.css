@@ -33,6 +33,10 @@ header .planos {
     background-color: #25D366;
 }
 
+header nav {
+    display: inline;
+}
+
 .robotMini{
     width: 52px;
     height: 51px;
@@ -44,7 +48,7 @@ header .planos {
     height: 468px;
     margin-left: 88px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.3); /* Opacidade de 30% usando RGBA */
+    background-color: rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
