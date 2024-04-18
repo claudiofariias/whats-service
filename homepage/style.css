@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(236, 229, 221, 1);
+}
+
+header {
+    background-color: rgba(7, 94, 84, 1);
+    color: rgba(236, 229, 221, 1);
+    padding: 10px 20px;
+}
+
+/* Primeira parte da Home Page*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo-1 img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-1 h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.navbar ul li a {
+    color: rgba(236, 229, 221, 1);
+    text-decoration: none;
+}
+
+.navbar ul li a.button {
+    position: fixed;
+    top: 19px; /* Posição fixa na parte superior da página */
+    right: 50px; /* Espaçamento da margem direita */
+    background-color: rgba(37, 211, 102, 1);
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: rgba(236, 229, 221, 1);
+}
+
+main {
+    padding: 110px 90px;
+}
+
+.main-section {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(7, 94, 84, 1);
+}
+
+.logo-2 {
+    flex: 1;
+}
+
+.logo-2 img {
+    max-width: 300px;
+}
+
+.content-main h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.content-main h2 {
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+
+/* Estilizando a seção de aplicações do chat*/
+.applications-section {
+    background: linear-gradient(to bottom, #075E54, #128C7E); /* Cor verde para a seção */
+    padding: 80px 40px;
+    color: rgba(236, 229, 221, 1); /* Texto em branco */
+}
+
+.applications-section .content-applications {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os elementos */
+}
+
+.applications-section .prints img {
+    max-width: 100%; /* As imagens ocupam 100% da largura de sua seção */
+    margin-right: 60px; /* Espaçamento entre as duas imagens */
+}
+
+.applications-section .text {
+    flex: 1; /* Ocupa metade da largura da seção */
+}
+
+.content-applications h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.content-applications h2 {
+    font-size: 16px;
+}
