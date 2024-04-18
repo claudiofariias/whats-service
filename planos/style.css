@@ -37,10 +37,92 @@ header .login {
     background-color: #25D366;
 }
 
+
+.container h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 200;
+    margin-top: 250px;
+    
+}
+
+.container {
+    padding-top: 100px;
+    width: 866px;
+    display: flex; 
+}
+
 .planos {
     width: 373px;
     height: 534px;
     border-radius: 20px;
     background-color: rgba(37, 211, 102, 0.3);
-    
+    margin: 110 10px; 
+    padding: 20px;
+    margin-left: 40px;
+}
+.planos2 {
+    width: 373px;
+    height: 534px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 110 10px; 
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.nomePlano {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+}
+.nomePlano2 {
+    text-align: center;
+    font-size: 36px;
+    color: #128C7E;
+    font-weight: 600;
+}
+
+.porApenas {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.valor {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-top: -15px;
+}
+.valor2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #25D366;
+    margin-top: -15px;
+}
+
+.texto {
+    padding-top: 80px;
+}
+
+.botao {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.botao button {
+    width: 281px;
+    height: 67px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    color: #25D366;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+div .chatbot {
+    margin-left: 100px;
 }
